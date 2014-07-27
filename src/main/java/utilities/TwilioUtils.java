@@ -26,9 +26,4 @@ public class TwilioUtils {
         params.add( new BasicNameValuePair( "Body", msg ));
         Message sms = messageFactory.create( params );
     }
-
-    /*public static void main(String[] args) throws TwilioRestException {
-
-        TwilioUtils.sendSms( "+14158198840", "+19376014128", "Booyah!" );
-    }*/
 }

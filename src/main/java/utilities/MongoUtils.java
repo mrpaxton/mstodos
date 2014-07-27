@@ -97,15 +97,4 @@ public class MongoUtils {
         return collection.findAndModify( queryObject,
                                          updateObject ) != null;
     }
-
-//    public static DBObject querySingleDocument( DBCollection collection,
-//                                                String key, String value ) {
-//        BasicDBObject queryItem = new BasicDBObject( key, value );
-//        DBCursor cursor = collection.find( queryItem );
-//        try {
-//            while( cursor.hasNext() ) {
-//
-//            }
-//        }
-//    }
 }
